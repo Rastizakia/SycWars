@@ -24,4 +24,8 @@ typedef struct {
     char c1, c2;
 } Pixel;
 
+extern sigjmp_buf game_loop;
+extern SysState env;
+extern uint32_t tick;
+
 #endif
