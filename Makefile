@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -O0 -Wall
-SRC = src/main.c src/renderer.c src/terminal.c
+SRC = src/main.c
 OBJ = $(SRC:.c=.o)
 TARGET = sycwars
 
